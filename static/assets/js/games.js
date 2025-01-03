@@ -46,12 +46,12 @@ const load = () => {
                         setTimeout(() => {
                             if (isValidURL(game.target)) createViewPage({
                                 target: game.target,
-                                title: game.name,
+                                title: "Maybe,
                                 proxied: true
                             });
                             else createViewPage({
                                 target: game.target,
-                                title: game.name
+                                title: "PLEASE"
                             });
                         }, 1000);
                     });
