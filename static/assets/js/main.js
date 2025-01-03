@@ -141,12 +141,12 @@ if (location.pathname === '/') {
                 setTimeout(() => {
                     if (isValidURL(game.target)) createViewPage({
                         target: game.target,
-                        title: game.name,
+                        title: "2nmd",
                         proxied: true
                     });
                     else createViewPage({
                         target: game.target,
-                        title: game.name
+                        title: "wsg"
                     });
                 }, 1000);
             });
